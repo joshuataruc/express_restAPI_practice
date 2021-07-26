@@ -17,7 +17,7 @@ mongoose.connect(process.env.DB_CONNECTION,
     () => console.log('connected to the DB'));
     
     // dbase practice from mongodb atlas
-    //mongodb+srv://admin:<admin_password>@cluster0.cmgfn.mongodb.net/Cluster0?retryWrites=true&w=majority
+    //mongodb+srv://admin:admin_password@cluster0.cmgfn.mongodb.net/Cluster0?retryWrites=true&w=majority
 
 const PORT = process.env.PORT || 3000;
 
